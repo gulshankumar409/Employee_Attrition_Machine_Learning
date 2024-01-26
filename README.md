@@ -13,36 +13,36 @@ Columns with more than 80% empty values were dropped
 Categorical columns were encoded using LabelEncoder.
 Attributes with standard deviation less than 0.8 were excluded after normalization.
 
-    * Encoding Categorical Columns:
+ Encoding Categorical Columns:
          Categorical columns are identified and encoded using the LabelEncoder from scikit-learn, converting them into a format suitable for machine learning models
-    * Normalizing data and creating Gaussian Distribution:
+ Normalizing data and creating Gaussian Distribution:
         A Gaussian distribution is created for each attribute, and attributes with a standard deviation below the threshold (0.8) are excluded. This step ensures that the dataset adheres to a standard scale.
 
-Exploratory Data Analysis (EDA)
+#Exploratory Data Analysis (EDA)
 Explored the dataset to derive insights into employee characteristics and potential factors contributing to attrition.
 
-Principal Component Analysis (PCA)
+#Principal Component Analysis (PCA)
 Applied PCA for feature extraction and visualization.
 
-* Machine Learning Models
+#Machine Learning Models
 This repository contains Python code for predicting employee attrition using various machine learning models. The following models are implemented:
 
-Mean-Shift
+#Mean-Shift
 Utilizes Mean-Shift clustering for prediction.
 Achieves an accuracy of 86.17%.
 
-K-Nearest Neighbors (KNN)
+#K-Nearest Neighbors (KNN)
 Employs a KNN classifier with k=3.
 Achieves an accuracy of 78.68%.
 
-Support Vector Machine (SVM)
+#Support Vector Machine (SVM)
 Implements an SVM classifier with a linear kernel.
 Achieves an accuracy of 86.17%.
 
-K-Means
+#K-Means
 Applies K-Means clustering for prediction.
 Achieves accuracy metrics, precision, recall, and F1 score.
 
-Decision Tree
+#Decision Tree
 Trains a Decision Tree classifier.
 Achieves an accuracy of 86.17%.
