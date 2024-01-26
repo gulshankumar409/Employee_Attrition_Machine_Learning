@@ -3,6 +3,7 @@ Employee attrition is a critical aspect of human resource management, representi
 
 # Project step
 
+
 * Cleaning data
     * Try to remove the attributes which are mostly None:
         The columns with more than 90% empty values are dropped
