@@ -51,6 +51,21 @@ Implemented the following models:
 
 Explored through bar charts for feature comparison between different attributes to gain insights into employee attrition.
 
+#### We have used Random Forest Classifier for best results of Bar charts 
+The Random Forest Classifier was employed to identify the top features contributing to employee attrition. 
+**Top 10 Features:**
+- 'OverTime'
+- 'MonthlyIncome'
+- 'TotalWorkingYears'
+- 'Age'
+- 'YearsAtCompany'
+- 'StockOptionLevel'
+- 'JobLevel'
+- 'YearsWithCurrManager'
+- 'MaritalStatus'
+- 'JobRole'
+
+
 ### Heatmap Analysis for Feature Selection
 
 #### Encoding Categorical Labels
@@ -63,14 +78,3 @@ A heatmap of the correlation matrix visualizes relationships between features, a
 Selected important features ('OverTime', 'MonthlyIncome', etc.) are analyzed in a filtered heatmap for deeper insights.
 
 
-**Top 10 Features:**
-- 'OverTime'
-- 'MonthlyIncome'
-- 'TotalWorkingYears'
-- 'Age'
-- 'YearsAtCompany'
-- 'StockOptionLevel'
-- 'JobLevel'
-- 'YearsWithCurrManager'
-- 'MaritalStatus'
-- 'JobRole'
