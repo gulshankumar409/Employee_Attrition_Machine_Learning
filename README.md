@@ -1,4 +1,4 @@
-# EMPLOYEE ATTRITION
+# EMPLOYEE ATTRITION:
 Employee attrition is a critical aspect of human resource management, representing the departure of employees from an organization. Understanding and predicting attrition can aid in strategic workforce planning and retention efforts. This comprehensive documentation outlines the entire process of analyzing employee attrition using a dataset, encompassing data preprocessing, visualization, and the implementation of various machine learning models.
 
 # Project step
